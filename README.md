@@ -7,7 +7,7 @@ This repository presents two advanced deep learning pipelines for classifying pn
 
 Both models are trained, evaluated, and interpreted using **Explainable AI (XAI)** techniques, specifically **Grad-CAM**, to visualize which areas of the X-rays influenced each prediction. The goal is to improve diagnostic confidence and model transparency in clinical contexts.
 
-## 🔬 Notebooks Included
+##  Notebooks Included
 
 ### 1. `ViT_XAI_Pneumonia_Prediction`
 - Implements a Vision Transformer (ViT) pipeline.
@@ -26,7 +26,7 @@ Both models are trained, evaluated, and interpreted using **Explainable AI (XAI)
   - Grad-CAM overlays for both models
   - Key insight: ViT slightly outperformed EfficientNetB0 in terms of AUC (**ViT ~0.85 vs. EfficientNet ~0.83**) and interpretability clarity.
 
-## 🗂 Dataset
+##  Dataset
 **Kaggle Chest X-ray Pneumonia Dataset**  
 [https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
@@ -34,7 +34,7 @@ Classes:
 - NORMAL
 - PNEUMONIA
 
-## ⚙️ Technologies Used
+##  Technologies Used
 - Python
 - TensorFlow / Keras / KerasCV
 - Hugging Face Transformers
@@ -42,27 +42,27 @@ Classes:
 - Matplotlib, NumPy
 - Jupyter Notebook
 
-## 📊 Explainable AI (XAI)
+##  Explainable AI (XAI)
 - **Grad-CAM** applied to both architectures.
 - Visual heatmaps show model focus on thoracic regions.
 - Misclassifications analyzed with visual explanations and possible clinical rationale.
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 - Accuracy, Precision, Recall, F1-score
 - ROC-AUC
 - Visual review of misclassified cases
 
-## 📌 Key Insights
+##  Key Insights
 - Vision Transformers are competitive with CNNs for medical image classification.
 - Grad-CAM helped validate model decisions and highlighted common sources of error.
 - Data imbalance and subtle clinical features remain key challenges.
 
-## 📎 How to Run
+##  How to Run
 1. Clone the repository.
 2. Ensure you have Python 3.8+, TensorFlow, Hugging Face Transformers, and other dependencies installed.
 3. Run each notebook in JupyterLab or VS Code.
 
-## 📄 License
+##  License
 This project is released under the MIT License.
 
 ---
